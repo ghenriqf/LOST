@@ -1,4 +1,3 @@
-# --- Build results ---
 /[Ll]ibrary/
 /[Tt]emp/
 /[Bb]uild/
@@ -9,7 +8,6 @@
 /MemoryCaptures/
 sysinfo.txt
 
-# --- IDE específicas ---
 .vs/
 .vscode/
 .idea/
@@ -20,7 +18,6 @@ sysinfo.txt
 *.userprefs
 *.unityproj
 
-# --- Cache ---
 /[Aa]sset[Ss]tore/
 *.apk
 *.aab
@@ -31,8 +28,6 @@ sysinfo.txt
 *.bak
 *.orig
 
-# --- Configurações locais do Unity ---
-# (não afetam o funcionamento do projeto)
 ProjectSettings/EditorSettings.asset
 ProjectSettings/SceneTemplateSettings.json
 ProjectSettings/TimelineSettings.asset
@@ -41,41 +36,30 @@ ProjectSettings/VersionControlSettings.asset
 ProjectSettings/PackageManagerSettings.asset
 ProjectSettings/QualitySettings.asset
 
-# --- Configs de pacotes e logs ---
 /Packages/packages-lock.json
 /Packages/manifest-temp.json
 
-# --- Crash reports e logs ---
 /CrashReports/
 *.stackdump
 *.log
 
-# --- Outros ---
 /.DS_Store
 /Thumbs.db
 /*.mdb
 *.db
 *.pdb
 
-# --- Build Player Data (Addressables, etc) ---
 /ServerData/
 /BuildCache/
 /StreamingAssets/aa.meta
 /StreamingAssets/aa/
 
-# --- Input System gerados ---
 /InputSystem/Generated/
 
-# --- Visual Studio / Rider cache ---
 /ExportedObj/
 /obj/
 /Library/ScriptAssemblies/
 /Library/PackageCache/
 /Library/ShaderCache/
 
-# --- Sistema de testes ---
-<<<<<<< HEAD
 /TestResults/
-=======
-/TestResults/
->>>>>>> afc7c103f5903924ef92311c029142ee4e49b438
