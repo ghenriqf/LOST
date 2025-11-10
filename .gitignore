@@ -74,4 +74,8 @@ ProjectSettings/QualitySettings.asset
 /Library/ShaderCache/
 
 # --- Sistema de testes ---
+<<<<<<< HEAD
 /TestResults/
+=======
+/TestResults/
+>>>>>>> afc7c103f5903924ef92311c029142ee4e49b438
