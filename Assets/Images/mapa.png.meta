@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: b05978341ce517b4d9fbd2d23d6e884b
+guid: 3a348ad4e9094b54a9aab6948486662c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7165162994186742415
-    second: protagonista_0
-  - first:
-      213: -8885643464461005080
-    second: protagonista_1
-  - first:
-      213: 8858940105962702453
-    second: protagonista_2
-  - first:
-      213: 6062558952801307109
-    second: protagonista_3
+      213: -1412945729244362386
+    second: mapa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -109,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protagonista_0
+      name: mapa_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 18
-        width: 32
-        height: 27
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17599bd283a309c90800000000000000
-      internalID: -7165162994186742415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protagonista_1
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 17
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8eec704e85adfa480800000000000000
-      internalID: -8885643464461005080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protagonista_2
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 18
-        width: 34
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5764e56f61741fa70800000000000000
-      internalID: 8858940105962702453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protagonista_3
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 17
-        width: 33
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e9069b2f39822450800000000000000
-      internalID: 6062558952801307109
+      spriteID: e690c796855346ce0800000000000000
+      internalID: -1412945729244362386
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 83121dcb288eb5d4294ad1b5f7c5dce4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -208,16 +133,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceOnImport
-        value: False
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      protagonista_0: -7165162994186742415
-      protagonista_1: -8885643464461005080
-      protagonista_2: 8858940105962702453
-      protagonista_3: 6062558952801307109
+      mapa_0: -1412945729244362386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
