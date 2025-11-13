@@ -7,22 +7,12 @@ public class Parallax : MonoBehaviour
     private MeshRenderer _meshRenderer;
     [SerializeField] private float animationSpeed;
 
-    private void Start()
-    {
-        Invoke(nameof(StartBreakSmooth), 2f);
-    }
-
     void Awake()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
     }
     
-    private void StartBreakSmooth()
-    {
-        StartCoroutine(BreakParallaxSmooth());
-    }
-    
-    private IEnumerator BreakParallaxSmooth()
+    public IEnumerator BreakParallaxSmooth()
     {
         while (animationSpeed > 0)
         {
