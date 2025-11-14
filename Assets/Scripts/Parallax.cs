@@ -6,10 +6,15 @@ public class Parallax : MonoBehaviour
 {
     private MeshRenderer _meshRenderer;
     [SerializeField] private float animationSpeed;
+    private float initialAnimationSpeed;
+    private Vector2 initialOffset;
 
     void Awake()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
+        _meshRenderer = GetComponent<MeshRenderer>();
+        initialAnimationSpeed = animationSpeed;
+        initialOffset = _meshRenderer.material.mainTextureOffset;
     }
     
     public IEnumerator BreakParallaxSmooth()
@@ -20,6 +25,12 @@ public class Parallax : MonoBehaviour
             yield return null;
         }
         animationSpeed = 0;
+    }
+    
+    public void ResetParallaxInstant()
+    {
+        animationSpeed = initialAnimationSpeed;
+        _meshRenderer.material.mainTextureOffset = initialOffset;
     }
     
     void Update()

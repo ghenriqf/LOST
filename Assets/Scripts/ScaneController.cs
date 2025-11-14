@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ScaneController : MonoBehaviour
 {
@@ -23,8 +24,25 @@ public class ScaneController : MonoBehaviour
         }
     }
     
+    public void ResetScene()
+    {
+        car.GetComponent<Animator>().enabled = false;
+        foreach (var p in parallax)
+        {
+            p.ResetParallaxInstant();
+        }
+    }
+    
     void Start()
     {
         StartCoroutine(BrakeCar(10));
+    }
+    
+    void Update()
+    {
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+        {
+            ResetScene();
+        }
     }
 }
