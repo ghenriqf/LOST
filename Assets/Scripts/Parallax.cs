@@ -6,23 +6,18 @@ public class Parallax : MonoBehaviour
 {
     private MeshRenderer _meshRenderer;
     [SerializeField] private float animationSpeed;
-
-    private void Start()
-    {
-        Invoke(nameof(StartBreakSmooth), 2f);
-    }
+    private float initialAnimationSpeed;
+    private Vector2 initialOffset;
 
     void Awake()
     {
         _meshRenderer = GetComponent<MeshRenderer>();
+        _meshRenderer = GetComponent<MeshRenderer>();
+        initialAnimationSpeed = animationSpeed;
+        initialOffset = _meshRenderer.material.mainTextureOffset;
     }
     
-    private void StartBreakSmooth()
-    {
-        StartCoroutine(BreakParallaxSmooth());
-    }
-    
-    private IEnumerator BreakParallaxSmooth()
+    public IEnumerator BreakParallaxSmooth()
     {
         while (animationSpeed > 0)
         {
@@ -30,6 +25,12 @@ public class Parallax : MonoBehaviour
             yield return null;
         }
         animationSpeed = 0;
+    }
+    
+    public void ResetParallaxInstant()
+    {
+        animationSpeed = initialAnimationSpeed;
+        _meshRenderer.material.mainTextureOffset = initialOffset;
     }
     
     void Update()
