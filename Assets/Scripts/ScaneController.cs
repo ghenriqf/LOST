@@ -26,7 +26,7 @@ public class ScaneController : MonoBehaviour
     
     public void ResetScene()
     {
-        car.GetComponent<Animator>().enabled = false;
+        car.GetComponent<Animator>().enabled = true;
         foreach (var p in parallax)
         {
             p.ResetParallaxInstant();

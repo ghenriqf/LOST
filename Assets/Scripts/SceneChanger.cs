@@ -9,7 +9,6 @@ public class SceneChanger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Entrando em nova cena");
             SceneManager.LoadScene(sceneToLoad);
         }
     }
