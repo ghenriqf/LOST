@@ -7,6 +7,11 @@ public class ScaneController : MonoBehaviour
     [SerializeField] private GameObject car;
     [SerializeField] private AudioSource audioSource;
     private Parallax[] parallax;
+    public SpriteRenderer[] sprites;
+    public SpriteRenderer blackBackground;
+
+    public float fadeDuration = 1f;
+    public float timeVisible = 1f;
 
     void Awake()
     {
@@ -24,12 +29,6 @@ public class ScaneController : MonoBehaviour
             StartCoroutine(p.BreakParallaxSmooth());
         }
     }
-
-    public SpriteRenderer[] sprites;
-    public SpriteRenderer blackBackground;
-
-    public float fadeDuration = 1f;
-    public float timeVisible = 1f;
 
     IEnumerator PlaySequence()
     {
