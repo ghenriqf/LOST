@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-public class ScaneController : MonoBehaviour
+public class SceneController : MonoBehaviour
 {
     [SerializeField] private GameObject car;
     [SerializeField] private AudioSource audioSource;
@@ -29,7 +29,7 @@ public class ScaneController : MonoBehaviour
     void Awake()
     {
         parallax = FindObjectsOfType<Parallax>();
-        houseStartPos = new Vector3(1.98f, -0.28f, -1.25f);
+        houseStartPos = new Vector3(1.98f, -0.22f, -1.25f);
         house.position = houseStartPos;
     }
 
@@ -107,6 +107,8 @@ public class ScaneController : MonoBehaviour
         }
 
         house.position = new Vector3(endX, currentPos.y, currentPos.z);
+
+        car.GetComponent<Animator>().enabled = false;
     }
 
     IEnumerator FadeIn(SpriteRenderer sr, float duration)
