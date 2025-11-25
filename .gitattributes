@@ -1,0 +1,11 @@
+# Força o GitHub a identificar o repositório como C#
+*.cs linguist-language=C#
+
+# Diz que arquivos não são relevantes pra estatísticas de linguagem
+*.shader linguist-detectable=false
+*.hlsl linguist-detectable=false
+*.cginc linguist-detectable=false
+*.meta linguist-detectable=false
+*.mat linguist-detectable=false
+*.prefab linguist-detectable=false
+*.unity linguist-detectable=false
