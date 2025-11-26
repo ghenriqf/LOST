@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CasaCorredor.unity
     guid: f43c08c4d93fe224e84a167253a5dc13
+  - enabled: 1
+    path: Assets/Scenes/CasaQuarto.unity
+    guid: 14b148679fbd3864abfee54db1337faa
+  - enabled: 1
+    path: Assets/Scenes/CasaBanheiro.unity
+    guid: 3e7e750412461c549ad5332413e12ba4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
