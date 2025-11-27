@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CasaBanheiro.unity
     guid: 3e7e750412461c549ad5332413e12ba4
+  - enabled: 1
+    path: "Assets/Scenes/CasaCorredorPor\xE3o.unity"
+    guid: 2d3ad8a30f82f834cbcdc4872f2191ef
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
