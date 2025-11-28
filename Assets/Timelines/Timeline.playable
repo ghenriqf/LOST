@@ -467,17 +467,17 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0.65
-        value: {x: 1.118, y: -0.003999993, z: 0}
+        value: {x: -0.0029999912, y: -0.003999993, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: -0.27523807, z: 0}
+        outSlope: {x: 0, y: -0.2638095, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.7
-        value: {x: 1.118, y: -0.29299998, z: 0}
-        inSlope: {x: -0, y: -0.27523807, z: -0}
+        value: {x: -0.0029999912, y: -0.281, z: 0}
+        inSlope: {x: -0, y: -0.2638095, z: -0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
@@ -534,7 +534,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0.65
-        value: 1.118
+        value: -0.0029999912
         inSlope: 0
         outSlope: 0
         tangentMode: 69
@@ -543,7 +543,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.7
-        value: 1.118
+        value: -0.0029999912
         inSlope: -0
         outSlope: 0
         tangentMode: 69
@@ -566,15 +566,15 @@ AnimationClip:
         time: 0.65
         value: -0.003999993
         inSlope: 0
-        outSlope: -0.27523807
+        outSlope: -0.2638095
         tangentMode: 69
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.7
-        value: -0.29299998
-        inSlope: -0.27523807
+        value: -0.281
+        inSlope: -0.2638095
         outSlope: 0
         tangentMode: 69
         weightedMode: 0
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Markers:
     m_Objects: []
   m_TrackProperties:
-    volume: 0.48108524
+    volume: 0.8250729
     stereoPan: 0
     spatialBlend: 0
 --- !u!74 &5245519978725850106
