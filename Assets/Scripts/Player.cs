@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Animator animator;
+    [SerializeField] private AudioSource footstepAudio;
 
     void Start()
     {
@@ -18,6 +19,21 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = movement * moveSpeed;
+        HandleFootsteps();
+    }
+
+    void HandleFootsteps()
+    {
+        bool isMoving = movement.magnitude > 0.1f;
+
+        if (isMoving && !footstepAudio.isPlaying)
+        {
+            footstepAudio.Play();
+        }
+        else if (!isMoving && footstepAudio.isPlaying)
+        {
+            footstepAudio.Stop();
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -27,12 +43,12 @@ public class Player : MonoBehaviour
         animator.SetFloat("InputX", movement.x);
         animator.SetFloat("InputY", movement.y);
 
-        if (context.performed) 
+        if (context.performed)
         {
             animator.SetBool("IsMoving", true);
         }
 
-        if (context.canceled) 
+        if (context.canceled)
         {
             animator.SetBool("IsMoving", false);
             animator.SetFloat("LastInputX", movement.x);
