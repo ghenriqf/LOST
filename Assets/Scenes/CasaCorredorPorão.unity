@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   moveSpeed: 0.6
-  footstepAudio: {fileID: 0}
+  footstepAudio: {fileID: 805496334}
 --- !u!212 &484923051
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1264,6 +1264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sceneToLoad: Test
+  spawnPointName: 
 --- !u!4 &1433494125
 Transform:
   m_ObjectHideFlags: 0
@@ -1480,6 +1481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sceneToLoad: CasaCorredor
+  spawnPointName: "SpawnEntradaPor\xE3o"
 --- !u!4 &1825281215
 Transform:
   m_ObjectHideFlags: 0

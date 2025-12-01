@@ -1596,7 +1596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sceneToLoad: CasaCorredor
-  spawnPointName: SpwanEntradaQuarto
+  spawnPointName: SpawnEntradaQuarto
 --- !u!4 &1433494125
 Transform:
   m_ObjectHideFlags: 0
