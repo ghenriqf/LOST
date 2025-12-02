@@ -667,6 +667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 352329839}
   - component: {fileID: 352329841}
+  - component: {fileID: 352329842}
   - component: {fileID: 352329840}
   m_Layer: 5
   m_Name: Player1
@@ -793,6 +794,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352329838}
   m_CullTransparentMesh: 1
+--- !u!114 &352329842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352329838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34fca91a5336fe41b1672355dd8cde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
+  dialogueText: {fileID: 352329840}
+  typingSpeed: 0.04
+  fullText: "...n\xE3o, apenas estava usando o banheiro, obrigado."
 --- !u!1 &431107681
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 454063730}
   - component: {fileID: 454063732}
+  - component: {fileID: 454063733}
   - component: {fileID: 454063731}
   m_Layer: 5
   m_Name: Player2
@@ -1148,6 +1165,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454063729}
   m_CullTransparentMesh: 1
+--- !u!114 &454063733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454063729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34fca91a5336fe41b1672355dd8cde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
+  dialogueText: {fileID: 454063731}
+  typingSpeed: 0.06
+  fullText: '...Claro... Senhor. '
 --- !u!1 &510815355
 GameObject:
   m_ObjectHideFlags: 0
@@ -2008,10 +2040,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a34fca91a5336fe41b1672355dd8cde6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialoge
-  dialogeText: {fileID: 0}
-  dialogeLines: []
-  textSpeed: 0.05
-  timeBetweenLines: 2
+  dialogueText: {fileID: 0}
+  typingSpeed: 0.05
+  fullText: 
 --- !u!1 &998763305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2474,6 +2505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311970894}
   - component: {fileID: 1311970896}
+  - component: {fileID: 1311970897}
   - component: {fileID: 1311970895}
   m_Layer: 5
   m_Name: OldMan2
@@ -2601,6 +2633,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311970893}
   m_CullTransparentMesh: 1
+--- !u!114 &1311970897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311970893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34fca91a5336fe41b1672355dd8cde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
+  dialogueText: {fileID: 1311970895}
+  typingSpeed: 0.03
+  fullText: "Enfim, apenas tome cuidado que a escada do por\xE3o est\xE1 em manuten\xE7\xE3o,
+    melhor n\xE3o ir l\xE1!"
 --- !u!1 &1459164794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3328,6 +3376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2023024898}
   - component: {fileID: 2023024900}
+  - component: {fileID: 2023024901}
   - component: {fileID: 2023024899}
   m_Layer: 5
   m_Name: OldMan1
@@ -3454,6 +3503,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023024897}
   m_CullTransparentMesh: 1
+--- !u!114 &2023024901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023024897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34fca91a5336fe41b1672355dd8cde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
+  dialogueText: {fileID: 2023024899}
+  typingSpeed: 0.05
+  fullText: Posso te ajudar, Jonathan?
 --- !u!1 &2041008347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3464,6 +3528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041008348}
   - component: {fileID: 2041008350}
+  - component: {fileID: 2041008351}
   - component: {fileID: 2041008349}
   m_Layer: 5
   m_Name: OldMan3
@@ -3590,6 +3655,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041008347}
   m_CullTransparentMesh: 1
+--- !u!114 &2041008351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041008347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34fca91a5336fe41b1672355dd8cde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
+  dialogueText: {fileID: 2041008349}
+  typingSpeed: 0.03
+  fullText: "Bom, n\xE3o se leve pela curiosidade, boa noite."
 --- !u!1 &2069835520
 GameObject:
   m_ObjectHideFlags: 0
