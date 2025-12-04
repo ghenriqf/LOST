@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   timeToChange: 25
-  sceneName: CasaQuarto
+  sceneName: CasaQuartoCutscene2
 --- !u!4 &685896561
 Transform:
   m_ObjectHideFlags: 0

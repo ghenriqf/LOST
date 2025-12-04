@@ -2199,7 +2199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   timeToChange: 24.4
-  sceneName: CorredorBloqueado
+  sceneName: CorredorBloqueadoBanheiro
 --- !u!4 &1722296520
 Transform:
   m_ObjectHideFlags: 0

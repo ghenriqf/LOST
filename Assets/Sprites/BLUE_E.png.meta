@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 87708a13341cadd4189bb63b26a1ffff
+guid: 985a38bdcc704094680a9168c147757c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3733805612042556432
-    second: Soup_0
+      213: -5852431837419458362
+    second: BLUE_E_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soup_0
+      name: BLUE_E_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 10
-        height: 13
+        width: 31
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 014182eeb6421d330800000000000000
-      internalID: 3733805612042556432
+      spriteID: 6c03d6a504cf7cea0800000000000000
+      internalID: -5852431837419458362
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soup_0: 3733805612042556432
+      BLUE_E_0: -5852431837419458362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

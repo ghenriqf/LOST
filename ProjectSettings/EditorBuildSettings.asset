@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/CasaCozinha.unity
     guid: 58d9d5ea8775efe4599782371d7b6390
   - enabled: 1
-    path: Assets/Scenes/CasaCorredor1.unity
+    path: Assets/Scenes/CasaCorredor.unity
     guid: f43c08c4d93fe224e84a167253a5dc13
   - enabled: 1
     path: Assets/Scenes/CasaQuarto.unity
@@ -32,12 +32,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuartoBloqueado.unity
     guid: df7d78a1d9801c6459a71633c3dfe58e
-  - enabled: 0
-    path: Assets/Scenes/CorredorBloqueado.unity
-    guid: a9a2dc05cbdcaa245b30d44cec1c5d23
   - enabled: 1
     path: Assets/Scenes/CasaQuartoCutscene1.unity
     guid: 8700c62b4536af14abaec8833d9e0ba6
+  - enabled: 1
+    path: Assets/Scenes/CasaQuartoCutscene2.unity
+    guid: 5a30c35d994c1c74baa902d2e842a4b9
+  - enabled: 1
+    path: "Assets/Scenes/CorredorBloqueadoPor\xE3o.unity"
+    guid: e66add7ba32a6174ea2bb713bd046fde
+  - enabled: 1
+    path: Assets/Scenes/QuartoBloqueado1.unity
+    guid: f5e7a3500cc130f458bbf4e4542dbbfa
+  - enabled: 1
+    path: Assets/Scenes/CorredorBloqueadoBanheiro.unity
+    guid: f8641041ab57284429475047af8443c2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
