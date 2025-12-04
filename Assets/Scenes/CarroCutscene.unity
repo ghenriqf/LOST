@@ -2433,7 +2433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 587079d14abd2f643bbc38171b212d8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  timeToChange: 56.6
+  timeToChange: 58
   sceneName: CasaPorta
 --- !u!4 &1489184143
 Transform:
