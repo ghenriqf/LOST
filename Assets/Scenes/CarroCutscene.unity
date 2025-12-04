@@ -997,7 +997,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: No interior do Texas, um jovem detetive dirigia, a procura do hotel para
+  m_text: No interior do Texas, um jovem detetive dirigia a procura do hotel para
     passar a sua noite.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7251acc337177d84f91d91e7303adbc8, type: 2}
@@ -1083,7 +1083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
   dialogueText: {fileID: 538677302}
   typingSpeed: 0.03
-  fullText: No interior do Texas, um jovem detetive dirigia, a procura do hotel para
+  fullText: No interior do Texas, um jovem detetive dirigia a procura do hotel para
     passar a sua noite.
 --- !u!222 &538677304
 CanvasRenderer:
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
   dialogueText: {fileID: 671550411}
   typingSpeed: 0.03
-  fullText: Pra melhorar, a bussola anda oscilando...
+  fullText: "Pra melhorar, a b\xFAssola anda oscilando..."
 --- !u!222 &671550413
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2161,6 +2161,8 @@ GameObject:
   - component: {fileID: 1354353544}
   - component: {fileID: 1354353543}
   - component: {fileID: 1354353542}
+  - component: {fileID: 1354353545}
+  - component: {fileID: 1354353546}
   m_Layer: 0
   m_Name: FanceFront
   m_TagString: Untagged
@@ -2176,7 +2178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354353540}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.00005059977, y: -0.000020001084, z: 8.58}
   m_LocalScale: {x: 3.1999924, y: 1.7999563, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2195,7 +2197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e9bae6cea32684093f358cefdc1d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  animationSpeed: 0.3
+  animationSpeed: 0.32
 --- !u!23 &1354353543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2252,6 +2254,58 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354353540}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1354353545
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354353540}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1354353546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354353540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: f5287876295ce4d41b977f63d623d380, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1354353540}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
 --- !u!1 &1474657422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,7 +2867,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "e esse mapa, pelo amor de Deus, ele n\xE3o me ajuda nem um pouco."
+  m_text: "e esse mapa... pelo amor de Deus, ele n\xE3o me ajuda nem um pouco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7251acc337177d84f91d91e7303adbc8, type: 2}
   m_sharedMaterial: {fileID: 6170116368489573064, guid: 7251acc337177d84f91d91e7303adbc8, type: 2}
@@ -2898,7 +2952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterTMP
   dialogueText: {fileID: 1716010187}
   typingSpeed: 0.03
-  fullText: "e esse mapa, pelo amor de Deus, ele n\xE3o me ajuda nem um pouco."
+  fullText: "e esse mapa... pelo amor de Deus, ele n\xE3o me ajuda nem um pouco."
 --- !u!222 &1716010189
 CanvasRenderer:
   m_ObjectHideFlags: 0

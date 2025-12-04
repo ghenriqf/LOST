@@ -15,6 +15,7 @@ public class Parallax : MonoBehaviour
         _meshRenderer = GetComponent<MeshRenderer>();
         initialAnimationSpeed = animationSpeed;
         initialOffset = _meshRenderer.material.mainTextureOffset;
+        StartCoroutine(BreakParallaxSmooth(50f)); 
     }
     
     public IEnumerator BreakParallaxSmooth()
@@ -37,4 +38,19 @@ public class Parallax : MonoBehaviour
     {
         _meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
     }
+    public IEnumerator BreakParallaxSmooth(float delay)
+    {
+    // Espera alguns segundos
+    yield return new WaitForSeconds(delay);
+
+    // Começa a reduzir suavemente
+    while (animationSpeed > 0)
+    {
+        animationSpeed -= 0.1f * Time.deltaTime;
+        yield return null;
+    }
+
+    animationSpeed = 0;
+    }
 }
+
