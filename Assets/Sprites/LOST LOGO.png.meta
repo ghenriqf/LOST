@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 5d33362873f6f6c44a5f9d857a4534fc
+guid: c578286373ac55846a0456fa0bf84886
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3545604204396389491
-    second: Reference_0
+      213: 481878640887853709
+    second: LOST LOGO_0
+  - first:
+      213: 1439934087849560205
+    second: LOST LOGO_1
+  - first:
+      213: 372669581100881157
+    second: LOST LOGO_2
+  - first:
+      213: 6989425212613040345
+    second: LOST LOGO_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +109,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reference_0
+      name: LOST LOGO_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 11
-        width: 214
-        height: 169
+        x: 0
+        y: 0
+        width: 154
+        height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8b52d2f2cb7bcec0800000000000000
-      internalID: -3545604204396389491
+      spriteID: d82f7fe121affa600800000000000000
+      internalID: 481878640887853709
       vertices: []
       indices: 
       edges: []
@@ -125,7 +134,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6c595b3eee07abc459de4cf1f330a197
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +144,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Reference_0: -3545604204396389491
+      LOST LOGO_0: 481878640887853709
+      LOST LOGO_1: 1439934087849560205
+      LOST LOGO_2: 372669581100881157
+      LOST LOGO_3: 6989425212613040345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
