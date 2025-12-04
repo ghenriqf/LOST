@@ -32,9 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuartoBloqueado.unity
     guid: df7d78a1d9801c6459a71633c3dfe58e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CorredorBloqueado.unity
     guid: a9a2dc05cbdcaa245b30d44cec1c5d23
+  - enabled: 1
+    path: Assets/Scenes/CasaQuartoCutscene1.unity
+    guid: 8700c62b4536af14abaec8833d9e0ba6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
