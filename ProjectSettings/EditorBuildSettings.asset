@@ -59,6 +59,12 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Por\xE3oRitual.unity"
     guid: b8fb855f74ad3924c8baa37dbb944486
+  - enabled: 1
+    path: "Assets/Scenes/Por\xE3oFinal.unity"
+    guid: 067a0d20b45e4cc45b3534df4e87975e
+  - enabled: 1
+    path: Assets/Scenes/CutsceneGameOver.unity
+    guid: 14d24e02e42320a41bfbe663419e7826
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

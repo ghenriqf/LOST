@@ -4,7 +4,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-    public float tempo = 60f;
+    public float tempo = 10f;
     public TextMeshProUGUI texto;
 
     void Update()
@@ -14,7 +14,7 @@ public class Timer : MonoBehaviour
         if (tempo <= 0)
         {
             tempo = 0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("CutsceneGameOver");
         }
 
         texto.text = Mathf.CeilToInt(tempo).ToString();
