@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54201119e40e8ff4590f1df4ef2b0d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  sceneToLoad: CorredorBloqueado
+  sceneToLoad: "CorredorBloqueadoPor\xE3o"
   spawnPointName: SpawnEntradaQuarto
 --- !u!4 &1433494125
 Transform:
