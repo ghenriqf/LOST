@@ -68,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutsceneGameOver.unity
     guid: 14d24e02e42320a41bfbe663419e7826
+  - enabled: 1
+    path: Assets/Scenes/CasaCozinhaCutscene.unity
+    guid: 0e64c9ca7d1e6b34b9ce341a950ebda5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
