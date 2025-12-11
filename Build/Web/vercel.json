@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/Build/(.*)\\.br$",
+      "headers": {
+        "Content-Encoding": "br"
+      }
+    },
+    {
+      "src": "/Build/(.*)\\.gz$",
+      "headers": {
+        "Content-Encoding": "gzip"
+      }
+    }
+  ]
+}
