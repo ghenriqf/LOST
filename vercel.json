@@ -1,22 +1,31 @@
 {
   "version": 2,
   "builds": [
-    { "src": "Build/**", "use": "@vercel/static" }
+    {
+      "src": "Build/Build/**/*",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
     {
-      "src": "/Build/(.*\\.js\\.br)",
-      "headers": { "Content-Encoding": "br" },
-      "dest": "/Build/$1"
+      "src": "/Build/(.*)\\.js\\.br",
+      "headers": {
+        "Content-Encoding": "br",
+        "Content-Type": "application/javascript"
+      },
+      "dest": "/Build/$1.js.br"
     },
     {
-      "src": "/Build/(.*\\.data\\.br)",
-      "headers": { "Content-Encoding": "br" },
-      "dest": "/Build/$1"
+      "src": "/Build/(.*)\\.wasm\\.br",
+      "headers": {
+        "Content-Encoding": "br",
+        "Content-Type": "application/wasm"
+      },
+      "dest": "/Build/$1.wasm.br"
     },
     {
-      "src": "/Build/(.*)",
-      "dest": "/Build/$1"
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
