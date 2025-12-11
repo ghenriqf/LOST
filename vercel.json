@@ -1,18 +1,21 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "Build/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "Build/index.html",
-      "use": "@vercel/static"
-    }
+    { "src": "Build/**", "use": "@vercel/static" }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/Build/(.*\\.js\\.br)",
+      "headers": { "Content-Encoding": "br" },
+      "dest": "/Build/$1"
+    },
+    {
+      "src": "/Build/(.*\\.data\\.br)",
+      "headers": { "Content-Encoding": "br" },
+      "dest": "/Build/$1"
+    },
+    {
+      "src": "/Build/(.*)",
       "dest": "/Build/$1"
     }
   ]
